@@ -1,0 +1,16 @@
+GET http://webs.cs.berkeley.edu/tos 80
+GET http://localhost/example-website 80
+GET http://www.google.com 80
+GET http://www.example.com 80
+
+POST http://httpbin.org/post 80
+
+PUT http://httpbin.org/put 80
+<html>
+<body><h1>Title</h1>
+test
+</body>
+</html>
+
+HEAD http://www.google.com 80
+HEAD http://webs.cs.berkeley.edu/tos 80
